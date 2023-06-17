@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inscription</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="inscription">
+            <form action="inscription.php" method="post">
+                <h2>INSCRIPTION</h2>
+                <div class="prenom">
+                  <label for="Prenom">Prénom</label>
+                  <input type="text" id="Prenom" name="prenom"> 
+                </div>
+                <div class="nom">
+                    <label for="Nom">Nom</label>
+                    <input type="text" id="Nom" name="nom"> 
+                </div>
+                <div class="email">
+                    <label for="InputEmail">Email</label>
+                    <input type="email" id="InputEmail" name="email"> 
+                </div>
+                <div class="password">
+                    <label for="InputPassword">Mot de passe</label>
+                    <input class="password" type="password" id="InputPassword" name="password">
+                </div>
+                <div class="show">
+                    <input type="checkbox" id="check1" onclick="showmdp()">
+                    <label for="check1">Show password</label>
+                </div>
+                <div class="password">
+                    <label for="InputPassword2">Confirmation du mot de passe</label>
+                    <input class="password" type="password" id="InputPassword2" name="password2">
+                </div>
+                <div class="show">
+                    <input type="checkbox" id="check2" onclick="showmdp2()">
+                    <label for="check2">Show password</label>
+                </div>
+                <button type="submit" name="btn_submit" id="inscription">Suivant</button>
+            </form>
+        </div>
+    </body>
+</html>

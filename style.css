@@ -1,0 +1,92 @@
+.container{    
+    color: aliceblue;
+    border:5px solid rgb(93, 22, 100) ;
+    background-color: rgb(151, 87, 174);
+    border-radius: 35px;
+    padding-top:10px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    font-family:sans-serif;
+}
+.password, .rester_connecter{
+    margin-top: 10px;
+}
+#InputEmail , #Nom, #Prenom,.password{
+    width: 100%;
+}
+h2{
+    text-align:center;
+}
+input[type=email], input[type=password], input[type=text]{
+    
+    padding: 3px 25px;
+    margin : 4px 0;
+    box-sizing: border-box;
+    border: 3px solid #823597;
+    border-radius: 10px;
+    transition: 0.5s;  
+    outline:none;  
+}
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus{
+    border: 3px solid #119f30;
+}
+#btn_connexion, #inscription{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border:2px solid rgb(90, 22, 100);
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(130, 35, 170);
+    color:white;
+}
+#btn_connexion:hover, #inscription:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border:2px solid rgb(83, 22, 100);
+    width: 100%;
+    transition-duration: 0.8s;
+    background-color: rgb(54, 22, 60);
+    border-radius: 20px;
+    color:white;
+}
+#btn_inscription{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border:2px solid rgb(22, 100, 32);
+    width: 100%;
+    background-color: rgb(6, 125, 44);
+    border-radius: 20px;
+    color:white;
+}
+#btn_inscription:hover{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border:2px solid rgb(14, 136, 30);
+    width: 100%;
+    transition-duration: 0.8s;
+    background-color: rgb(17, 96, 42);
+    border-radius: 20px;
+    color:white;
+}
+.inscription{
+    color: aliceblue;
+    border:5px solid rgb(88, 22, 100) ;
+    background-color: rgb(151, 87, 174);
+    border-radius: 35px;
+    padding-top:10px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    font-family:sans-serif;
+}
